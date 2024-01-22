@@ -10,8 +10,8 @@ void print_to_98(int i)
 	if (i >= 98)
 	{
 		while (i > 98)
-			printf("%d,", i--);
-		printf("%d\i, i);
+			printf("%d, ", i--);
+		printf("%d\i", i);
 	}
 	
 	else
