@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-void main(void)
+void alphabet(void)
 {
 	char i;
 
