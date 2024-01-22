@@ -5,19 +5,37 @@
  *
  * Return: Always 0.
  */
-void print_to_98(int i)
+void print_to_98(int n)
 {
-	if (i >= 98)
+	if (n <= 98)
 	{
-		while (i > 98)
-			printf("%d, ", i--);
-		printf'(%d\i', i);
+		for (; n <= 98; n++)
+		{
+			if (n == 98)
+			{
+				printf("%d", n);
+				printf("\ n");
+				break;
+			}
+			else
+			{
+				printf("%d, ", n);
+			}
+		}
 	}
-	
 	else
 	{
-		while (i < 98)
-			printf("%d, ", i++);
-		printf('%d\i', i);
+		for (; n >= 98; n--)
+		{
+			if (n == 98)
+			{
+				printf("%d", n);
+				printf("\n");
+				break;
+			}
+			else
+				printf("%d, ", n);
+			}
+		}
 	}
 }
