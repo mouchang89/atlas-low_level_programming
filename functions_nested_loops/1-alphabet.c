@@ -2,10 +2,8 @@
 
 /**
  * main - Prints the alphabet in lowercase using only _putchar.
- *
- * Return: Always 0.
  */
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	char i;
 
