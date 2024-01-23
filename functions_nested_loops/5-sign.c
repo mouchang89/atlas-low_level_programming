@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * main - Prints the sign of a number.
+ * print_sign - Prints the sign of a number.
+ * @n: the number which sign will be printed.
  *
- * Returns 1 and prints + if n is greater than 0.
- * Returns 0 and prints 0 if n is 0.
- * Returns -1 and prints - if n is less than 0.
+ * Return: 1 and prints + if n is greater than 0.
+ * Return: 0 and prints 0 if n is 0.
+ * Return: -1 and prints - if n is less than 0.
  */
 int print_sign(int n)
 {
