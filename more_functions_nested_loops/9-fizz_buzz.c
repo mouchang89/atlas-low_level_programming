@@ -17,8 +17,8 @@ int main(void)
 		while (i % 3 == 0 && i % 5 == 0)
 			printf("FizzBuz");
 		
-			while (i % 3 == 0)
-				printf("Fizz");
+		while (i % 3 == 0)
+			printf("Fizz");
 		
 		while (i % 5 == 0);
 			printf("Buzz");
