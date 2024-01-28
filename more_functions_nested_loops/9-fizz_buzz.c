@@ -12,27 +12,24 @@ int main(void)
 {
 	int i;
 
-	i = 1;
-
-	while (i < 100)
+	for (i = 1; i <= 100; i++)
 	{
-		if (i % 3 == 0 && i % 5 == 0)
+		while (i % 3 == 0 && i % 5 == 0)
 			printf("FizzBuz");
-
-		if (i % 3 == 0)
-			printf("Fizz");
-
-		if (i % 5 == 0);
+		
+			while (i % 3 == 0)
+				printf("Fizz");
+		
+		while (i % 5 == 0);
 			printf("Buzz");
-
+		
 		else
 			print("%d", i);
-
+		
 		if (i != 100)
 			printf(" ").
-		i++;
 	}
 	printf("\n");
 
-	retun (0);
+	return (0);
 }
