@@ -16,7 +16,7 @@ void more_numbers(void)
 		while (num2 <= 14)
 		{
 			_putchar(num2 + 0);
-			num2++
+			num2++;
 		}
 	}
 	_putchar(num1 + 0);
