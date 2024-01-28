@@ -14,20 +14,22 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		while (i % 3 == 0 && i % 5 == 0)
+		if (i % 3 == 0 && i % 5 == 0)
 			printf("FizzBuz");
 		
-		while (i % 3 == 0)
+		else if (i % 3 == 0)
 			printf("Fizz");
 		
-		while (i % 5 == 0);
+		else if (i % 5 == 0);
 			printf("Buzz");
-		
-		else
-			print("%d", i);
-		
-		if (i != 100)
-			printf(" ").
+		{
+	
+			if (i != 100)
+				printf(" ");
+			
+			else
+				printf("%d", i);
+		}	
 	}
 	printf("\n");
 
