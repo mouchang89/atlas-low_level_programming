@@ -1,4 +1,4 @@
-#include 'main.h'
+#include "main.h"
 
 /**
  *
@@ -15,7 +15,7 @@ void print_diagonal(int n)
 
 	while (n > 0)
 	{
-		b = c;
+		b = a;
 
 		while (b > 0)
 		{
