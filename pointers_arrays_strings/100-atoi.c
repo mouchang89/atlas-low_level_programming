@@ -25,7 +25,7 @@ int _atoi(char *s)
 			a = (a * 10) + (s[i] - '0');
 			i++;
 		}
-		if (c == 1)
+		if (a == 1)
 		{
 			break;
 		}
