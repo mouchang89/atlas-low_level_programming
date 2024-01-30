@@ -8,17 +8,14 @@
  */
 void rev_string(char *s)
 {
-	int len;
-	int i;
-	int temp;
+	int length = for (i = 0; s[i] != '\0'; i++);
+	int middle = length / 2;
+	char temp;
 
-	if (i < len)
+	for (int i = 0; i < middle; i++)
 	{
 		temp = s[i];
-		s[i] = s[len - 1];
-		s[len - 1] = temp;
-		i++;
-		len --;
-		reverse(s, len, i, temp);
+		s[i] = s[length - i - 1];
+		s[length - i - 1] = temp;
 	}
 }
