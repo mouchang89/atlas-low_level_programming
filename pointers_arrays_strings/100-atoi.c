@@ -8,9 +8,13 @@
  */
 int _atoi(char *s)
 {
-	int i = 1;
-	unsigned int a = 0;
-	char *temp = b;
+	int i;
+	unsigned int a;
+	char *temp;
+
+	temp = b;
+	a = 0;
+	i = 1;
 
 	while (*temp != '\0' && (*temp < '0' || *temp > '9'))
 	{
