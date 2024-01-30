@@ -8,12 +8,17 @@
  */
 void rev_string(char *s)
 {
+	int len;
 	int i;
+	int temp;
 
-	for (i = 0; s[i] != '\0'; i++);
-
-	for (i = (i - 1); s[i] != '\0'; i--)
+	if (i < len)
 	{
-		_putchar(s[i]);
+		temp = s[i];
+		s[i] = s[len - 1];
+		s[len - 1] = temp;
+		i++;
+		len --;
+		reverse(s, len, i, temp);
 	}
 }
