@@ -12,11 +12,13 @@ void puts2(char *str)
 	int j;
 
 	while (str[i] != '\0')
-	i++;
+	{
+		i++;
+	}
 
 	if (i % 2 == 1)
 	{
-		j = (i -1) / 2;
+		j = (i - 1) / 2;
 		j += 1;
 	}
 	else
