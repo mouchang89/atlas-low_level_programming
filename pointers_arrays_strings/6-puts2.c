@@ -17,7 +17,7 @@ void puts2(char *str)
 	if (i % 2 == 1)
 	{
 		j = (i -1) / 2;
-		j++;
+		j += 1;
 	}
 	else
 	{
