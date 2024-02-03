@@ -13,7 +13,7 @@ char *string_touper(char *str)
 	{
 		if (str[i] >= 'a' && str[i] <= 'z')
 		{
-			_putchar('A' && 'Z');
+			str[i] = str[i] - 32;
 		}
 		i++;
 	}
