@@ -17,11 +17,11 @@ int _strcmp(char *s1, char *s2)
 		{
 			_putchar('0');
 		}
-		if (s1[i] < s2[i])
+		else (s1[i] < s2[i])
 		{
 			_putchar('i < 0');
 		}
-		if (s1[i] > s2[i])
+		else (s1[i] > s2[i])
 		{
 			_putchar('i > 0');
 		}
