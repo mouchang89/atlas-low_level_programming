@@ -20,9 +20,9 @@ int _strcmp(char *s1, char *s2)
 		else (s1[i] < s2[i]);
 		{
 			_putchar('-');
-			i = -i
+			i = -i;
 		}
-		else (s1[i] > s2[i]);
+		else if (s1[i] > s2[i]);
 		{
 			_putchar(i + '0');
 		}
