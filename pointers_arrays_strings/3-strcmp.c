@@ -19,11 +19,11 @@ int _strcmp(char *s1, char *s2)
 		}
 		if (s1[i] < s2[i])
 		{
-			return (negative value);
+			return (-15);
 		}
 		if (s1[i] > s2[i])
 		{
-			return (positive value);
+			return (15);
 		}
 	}
 }
