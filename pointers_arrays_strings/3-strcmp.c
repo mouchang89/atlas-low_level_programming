@@ -15,16 +15,7 @@ int _strcmp(char *s1, char *s2)
 	{
 		if (s1[i] == s2[i]);
 		{
-			_putchar('0');
-		}
-		else (s1[i] < s2[i]);
-		{
-			_putchar('-');
-			i = -i;
-		}
-		else if (s1[i] > s2[i]);
-		{
-			_putchar(i + '0');
+			return (s1[i] - s2[i];
 		}
 	}
 	return (0);
