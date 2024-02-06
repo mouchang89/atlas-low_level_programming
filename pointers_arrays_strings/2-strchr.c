@@ -8,7 +8,7 @@
  * Return: Pointer to first occurence of character c in string s
  * or NULL if character not found.
  */
-char *_strchr(char *c, char b )
+char *_strchr(char *c, char b)
 {
 	while (c[0] != '\0')
 	{
