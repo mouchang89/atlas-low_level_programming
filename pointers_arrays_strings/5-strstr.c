@@ -28,7 +28,6 @@ char *_strstr(char *haystack, char *needle)
                         }
 		haystack = haystack - 1 - i;
 		needle = needle - i;
-		haystack++;
 	}
 	return ('\0');
 }
