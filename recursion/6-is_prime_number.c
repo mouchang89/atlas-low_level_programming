@@ -29,7 +29,7 @@ int prime(int i, int n)
 	{
 		return (1);
 	}
-	else if (a % b == 0);
+	else if (i % n == 0);
 	{
 		return (0);
 	}
