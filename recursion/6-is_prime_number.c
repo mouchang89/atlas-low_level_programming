@@ -17,7 +17,7 @@ int is_prime_number(int n)
 }
 
 /**
- * int prime - Check is number is prime.
+ * prime - Check if number is prime.
  * @i: Integer.
  * @n: Iteration.
  *
