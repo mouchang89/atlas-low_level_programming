@@ -20,15 +20,13 @@ int _sqrt_recursion(int n)
  */
 int _sqrt(int i, int n)
 {
-	int sqrt = i * i;
-
-	if (sqrt > n)
+	if (n * n == i)
+	{
+		return (n);
+	}
+	else if (i * i > n)
 	{
 		return (-1);
 	}
-	if (sqrt == n)
-	{
-		return (i);
-	}
-	return (_sqrt(n, i + 1));
+	return (_sqrt(i, n + 1));
 }
