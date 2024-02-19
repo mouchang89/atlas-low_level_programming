@@ -32,18 +32,19 @@ char *str_concat(char *s1, char *s2)
 		}
 	}
 	len = len1 + len2;
-	result = (char *)malloc(sizeof(char) * (len + 1));
+	result = malloc(sizeof(char) * (len + 1));
 	if (result == NULL)
 	{
 		return (NULL);
 	}
-	for (i = 0; i < len; i++)
+	for (i = 0; s1[i] != '\0'; i++)
 	{
 		result[i] = s1[i];
 	}
-	for (j = 0; j < len2; j++, i++)
+	for (j = 0; s2[j] != '\0'; i++)
 	{
 		result[i] = s2[j];
+		j++;
 	}
 	result[len] = '\0';
 	return (result);
