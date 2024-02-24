@@ -25,7 +25,7 @@ int _strlen(char *s)
  *
  * Return: pointer to dest
  */
-char *_strpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int len = 0, i;
 
