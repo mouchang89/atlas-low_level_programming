@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	char i;
 	int (*func)(int, int);
 
-	if (argc !=4)
+	if (argc != 4)
 	{
 		printf("Error\n");
 		exit(98);
@@ -36,5 +36,5 @@ int main(int argc, char *argv[])
 	}
 	result = func(arg1, arg2);
 	printf("%d\n", result);
-	return(0);
+	return (0);
 }
