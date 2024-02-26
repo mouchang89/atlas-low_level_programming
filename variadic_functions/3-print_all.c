@@ -31,7 +31,7 @@ void print_all(const char * const format, ...)
 		{
 			case 'c':
 			{
-				printf("%c%s", sep, va_arg(list, int));
+				printf("%s%d", sep, va_arg(list, int));
 					break;
 			}
 			case 'i':
