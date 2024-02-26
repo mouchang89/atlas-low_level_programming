@@ -23,7 +23,7 @@ void print_all(const char * const format, ...)
 	}
 	while (format && format[i])
 	{
-		if (i == (j - 1)
+		if (i == (j - 1))
 		{
 			sep = "";
 		}
