@@ -21,13 +21,13 @@ void print_all(const char * const format, ...)
 	{
 		j++;
 	}
-	while (format && format[n])
+	while (format && format[i])
 	{
 		if (i == (j - 1)
 		{
 			sep = "";
 		}
-		switch (format[n])
+		switch (format[i])
 		{
 			case 'c':
 			{
