@@ -17,13 +17,13 @@ void print_all(const char * const format, ...)
 
 	va_start(list, format);
 
-	while (format && format [i])
+	while (format && format [j])
 	{
-		i++;
+		j++;
 	}
 	while (format && format[n])
 	{
-		if (n == (i - 1)
+		if (i == (j - 1)
 		{
 			sep = "";
 		}
@@ -55,7 +55,7 @@ void print_all(const char * const format, ...)
 				break;
 			}	
 		}
-		n++;
+		i++;
 	}
 	va_end(list);
 	printf("\n");
