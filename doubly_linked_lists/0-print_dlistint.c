@@ -3,7 +3,7 @@
 /**
  * print_dlistint - prints all the elements of a dlistint_t list
  * @h: pointer to head of list
- * 
+ *
  * Return: all elements of list
  */
 size_t print_dlistint(const dlistint_t *h)
