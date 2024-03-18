@@ -28,13 +28,13 @@ void hash_table_print(const hash_table_t *ht)
 		while (node != NULL)
 		{
 			printf("'%s': '%s'", node->key, node->value);
+			c = 1;
 			node = node->next;
 			if (node != NULL)
 			{
 				printf(", ");
 			}
 		}
-		c = 1;
 	}
 	printf("}\n");
 }
