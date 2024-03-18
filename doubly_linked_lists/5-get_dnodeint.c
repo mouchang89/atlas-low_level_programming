@@ -3,7 +3,7 @@
 /**
  * get_dnodeint_at_index - returns the nth node of a dlistint_t linked list
  * @head: pointer to head
- * index: index of node starting from 0
+ * @index: index of node starting from 0
  *
  * Return: nth node of linked list otherwise NULL if node does not exist
  */
