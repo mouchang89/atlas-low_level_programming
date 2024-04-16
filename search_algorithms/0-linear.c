@@ -21,10 +21,10 @@ int linear_search(int *array, size_t size, int value)
 	{
 		if (array[i] == value)
 		{
-			printf("%d", value);
-			return (value);
+			printf("array[%d]", i);
+			return (i);
 		}
 	}
-	printf("%d", value);
+	printf("array[%d]", i);
 	return (-1);
 }
