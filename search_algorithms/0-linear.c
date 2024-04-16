@@ -11,7 +11,7 @@
  */
 int linear_search(int *array, size_t size, int value)
 {
-	unsigned int i;
+	unsigned int i = 0;
 
 	if (array[i] == '\0')
 	{
